@@ -26,7 +26,7 @@ INIT_LR = 1e-4
 EPOCHS = 20
 BS = 32
 
-DIRECTORY = r"/Users/amanulla/Documents/mindtree/PreTrainedModel/dataset"
+DIRECTORY = r"../dataset/" # Change the Directory
 CATEGORIES = ["with_mask", "without_mask"]
 
 # grab the list of images in our dataset directory, then initialize
